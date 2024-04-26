@@ -22,10 +22,10 @@ export default function Header() {
         </div>
         <div className="flex justify-center">
           <Button size="icon" variant="transparent">
-            <SearchIcon className="w-4 h-4" />
+            <SearchIcon className="w-5 h-5" />
           </Button>
           <Button size="icon" variant="transparent">
-            <BellIcon className="w-4 h-4" />
+            <BellIcon className="w-5 h-5" />
           </Button>
         </div>
       </div>
