@@ -33,6 +33,9 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    --primary-sky: 194 86% 57%;
+    --primary-sky-foreground: 210 40% 20%;
   }
 
   .dark {

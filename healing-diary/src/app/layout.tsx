@@ -1,7 +1,7 @@
-import Header from "@/common/header/header";
+import Header from "@/layout/header/header";
 import "./globals.css";
 import { Inter as FontSans } from "next/font/google";
-import BottomMenu from "@/common/menu/bottom-menu";
+import BottomMenu from "@/layout/menu/bottom-menu";
 
 const fontSans = FontSans({
   subsets: ["latin"],
