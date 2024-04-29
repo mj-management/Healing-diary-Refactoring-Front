@@ -79,7 +79,20 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    function ({ addUtilities }) {
+      // 스크롤 스냅 관련 유틸리티 추가
+      addUtilities({
+        ".scroll-snap-x": {
+          "scroll-snap-type": "x mandatory",
+        },
+        ".scroll-snap-align-start": {
+          "scroll-snap-align": "start",
+        },
+      });
+    },
+  ],
 } satisfies Config;
 
 export default config;
