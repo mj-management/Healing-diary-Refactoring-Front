@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${fontSans.variable} overflow-auto`}>
+      <body className={`${fontSans.variable} overflow-auto bg-gray-100`}>
         <div className="flex min-h-screen w-full flex-col items-center justify-start">
           <Header />
           {children}
