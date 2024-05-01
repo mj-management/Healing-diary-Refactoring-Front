@@ -7,16 +7,14 @@ export default function RecentDiaries() {
   return (
     <div className="w-full px-0 pb-4">
       <div className="flex w-full flex-col">
-        <>
-          <div className="pointer-events-none flex w-full flex-row items-center justify-between px-4 py-4">
-            <div className="flex flex-col items-start gap-1">
-              <p className="w-full text-xl font-semibold">최근 일기 🧐</p>
-              <p className="w-full text-xs text-gray-500">여기에서 최근 기록된 일기들을 살펴보세요</p>
-            </div>
+        <div className="pointer-events-none flex w-full flex-row items-center justify-between px-4 py-4">
+          <div className="flex flex-col items-start gap-1">
+            <p className="w-full text-xl font-semibold">최근 일기 🧐</p>
+            <p className="w-full text-xs text-gray-500">여기에서 최근 기록된 일기들을 살펴보세요</p>
           </div>
-        </>
+        </div>
         <div className="grid grid-cols-2 gap-x-3 gap-y-8 px-4">
-          <div className="group inline-block w-full relative">
+          <div className="group inline-block w-full relative select-none">
             <Link href="#">
               <div className="relative flex flex-col gap-3">
                 <div className="flex flex-col">

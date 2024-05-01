@@ -10,8 +10,8 @@ export default function RecentGroup() {
     <>
       <div className="pointer-events-none flex w-full flex-row items-center justify-between px-4">
         <div className="flex flex-col items-start gap-1">
-          <p className="w-full text-xl font-semibold">최근 일기 🧐</p>
-          <p className="w-full text-xs text-gray-500">여기에서 최근 기록된 일기들을 살펴보세요</p>
+          <p className="w-full text-xl font-semibold">최근 모임 🤓</p>
+          <p className="w-full text-xs text-gray-500">최근 생성된 모임과 일기를 살펴보세요</p>
         </div>
       </div>
       <div

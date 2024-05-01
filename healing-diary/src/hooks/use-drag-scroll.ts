@@ -12,7 +12,7 @@ export const useDragScroll = <T extends HTMLElement>() => {
     if (isActive) {
       e.preventDefault();
       const moveX = e.clientX - mouseDownClientX;
-      e.currentTarget.scrollTo(prevPositionX + moveX, 0);
+      e.currentTarget.scrollTo(prevPositionX - moveX, 0);
     }
   };
 
