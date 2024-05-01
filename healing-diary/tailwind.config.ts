@@ -24,6 +24,8 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        "primary-sky": "hsl(var(--primary-sky))",
+        "primary-sky-foreground": "hsl(var(--primary-sky-foreground))",
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
@@ -77,7 +79,20 @@ const config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    function ({ addUtilities }) {
+      // 스크롤 스냅 관련 유틸리티 추가
+      addUtilities({
+        ".scroll-snap-x": {
+          "scroll-snap-type": "x mandatory",
+        },
+        ".scroll-snap-align-start": {
+          "scroll-snap-align": "start",
+        },
+      });
+    },
+  ],
 } satisfies Config;
 
 export default config;

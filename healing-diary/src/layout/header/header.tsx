@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <div className="sticky top-0 z-50 w-full flex flex-col items-center justify-start">
-      <div className="h-[52px] max-h-[52px] relative z-50 flex w-full max-w-limit items-center justify-between gap-4">
+      <div className="h-[52px] max-h-[52px] relative z-50 flex w-full max-w-limit items-center justify-between gap-4 bg-white border-b border-b-gray-200">
         <div className="flex items-center justify-center">
           <Link href="/">
             <span className="sr-only">Home</span>
@@ -22,10 +22,10 @@ export default function Header() {
         </div>
         <div className="flex justify-center">
           <Button size="icon" variant="transparent">
-            <SearchIcon className="w-4 h-4" />
+            <SearchIcon className="w-5 h-5" />
           </Button>
           <Button size="icon" variant="transparent">
-            <BellIcon className="w-4 h-4" />
+            <BellIcon className="w-5 h-5" />
           </Button>
         </div>
       </div>
