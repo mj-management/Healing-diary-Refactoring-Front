@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { StyledCalendarWrapper, StyledCalendar, StyledDate, StyledToday, StyledDot } from "./styles/styled-calendar";
+import { StyledCalendarWrapper, StyledCalendar, StyledDate, StyledDot } from "./styles/styled-calendar";
 import moment from "moment";
 
 type ValuePiece = Date | null;
@@ -11,7 +11,7 @@ export default function DiaryCalendar() {
   const today = new Date();
   const [date, setDate] = useState<Value>(today);
   const [activeStartDate, setActiveStartDate] = useState<Date | null>(new Date());
-  const attendDay = ["2024-05-01", "2024-05-03"]; // 출석한 날짜 예시
+  const attendDay = ["2024-05-02", "2024-05-03"]; // 출석한 날짜 예시
 
   const handleDateChange = (newDate: Value) => {
     setDate(newDate);
@@ -46,8 +46,10 @@ export default function DiaryCalendar() {
           //   if (view === "month" && date.getMonth() === today.getMonth() && date.getDate() === today.getDate()) {
           //     html.push(<StyledToday key={"today"}>오늘</StyledToday>);
           //   }
-          if (attendDay.find((x) => x === moment(date).format("YYYY-MM-DD"))) {
-            html.push(<StyledDot key={moment(date).format("YYYY-MM-DD")} />);
+          if (view === "month") {
+            if (attendDay.find((x) => x === moment(date).format("YYYY-MM-DD"))) {
+              html.push(<StyledDot key={moment(date).format("YYYY-MM-DD")} />);
+            }
           }
           return <>{html}</>;
         }}
