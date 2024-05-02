@@ -54,7 +54,7 @@ export default function RecentGroup() {
                     </div>
                     <div className="flex flex-row items-center justify-center gap-2">
                       <p className="flex flex-row items-center justify-center">
-                        <span className="flex pr-0.5 text-primary-sky text-base">21%</span>
+                        <span className="flex pr-0.5 text-primary-dark-orange text-base">21%</span>
                         <span className="text-base">9,900</span>
                         <span className="text-base">원</span>
                       </p>
@@ -85,7 +85,7 @@ export default function RecentGroup() {
                     </div>
                     <div className="flex flex-row items-center justify-center gap-2">
                       <p className="flex flex-row items-center justify-center">
-                        <span className="flex pr-0.5 text-primary-sky text-base">21%</span>
+                        <span className="flex pr-0.5 text-primary-dark-orange text-base">21%</span>
                         <span className="text-base">9,900</span>
                         <span className="text-base">원</span>
                       </p>
@@ -130,7 +130,7 @@ export default function RecentGroup() {
                     </div>
                     <div className="flex flex-row items-center justify-center gap-2">
                       <p className="flex flex-row items-center justify-center">
-                        <span className="flex pr-0.5 text-primary-sky text-base">21%</span>
+                        <span className="flex pr-0.5 text-primary-dark-orange text-base">21%</span>
                         <span className="text-base">9,900</span>
                         <span className="text-base">원</span>
                       </p>
@@ -161,7 +161,7 @@ export default function RecentGroup() {
                     </div>
                     <div className="flex flex-row items-center justify-center gap-2">
                       <p className="flex flex-row items-center justify-center">
-                        <span className="flex pr-0.5 text-primary-sky text-base">21%</span>
+                        <span className="flex pr-0.5 text-primary-dark-orange text-base">21%</span>
                         <span className="text-base">9,900</span>
                         <span className="text-base">원</span>
                       </p>

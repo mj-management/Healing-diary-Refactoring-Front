@@ -52,7 +52,7 @@ export default function CalendarPage() {
                   <div className="flex flex-col justify-center items-start gap-0.5">
                     <div className="flex flex-row items-center justify-center gap-2">
                       <p className="flex flex-row items-center justify-center">
-                        <span className="flex pr-0.5 text-primary-sky text-lg">작성자</span>
+                        <span className="flex pr-0.5 text-primary-dark-orange text-lg">작성자</span>
                       </p>
                     </div>
                   </div>
@@ -89,7 +89,7 @@ export default function CalendarPage() {
                   <div className="flex flex-col justify-center items-start gap-0.5">
                     <div className="flex flex-row items-center justify-center gap-2">
                       <p className="flex flex-row items-center justify-center">
-                        <span className="flex pr-0.5 text-primary-sky text-lg">작성자</span>
+                        <span className="flex pr-0.5 text-primary-dark-orange text-lg">작성자</span>
                       </p>
                     </div>
                   </div>
@@ -126,7 +126,7 @@ export default function CalendarPage() {
                   <div className="flex flex-col justify-center items-start gap-0.5">
                     <div className="flex flex-row items-center justify-center gap-2">
                       <p className="flex flex-row items-center justify-center">
-                        <span className="flex pr-0.5 text-primary-sky text-lg">작성자</span>
+                        <span className="flex pr-0.5 text-primary-dark-orange text-lg">작성자</span>
                       </p>
                     </div>
                   </div>
@@ -163,7 +163,7 @@ export default function CalendarPage() {
                   <div className="flex flex-col justify-center items-start gap-0.5">
                     <div className="flex flex-row items-center justify-center gap-2">
                       <p className="flex flex-row items-center justify-center">
-                        <span className="flex pr-0.5 text-primary-sky text-lg">작성자</span>
+                        <span className="flex pr-0.5 text-primary-dark-orange text-lg">작성자</span>
                       </p>
                     </div>
                   </div>
