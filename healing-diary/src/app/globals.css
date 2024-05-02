@@ -11,6 +11,26 @@
   display: none; /* Chrome, Safari, Opera */
 }
 
+.react-calendar {
+  width: 100%; /* 적절한 너비 설정 */
+  max-width: 520px; /* 최대 너비 제한 */
+}
+
+.react-calendar__tile--now {
+  background-color: #ffd700 !important; /* 오늘 날짜의 배경색 변경 */
+  color: #ffffff !important; /* 오늘 날짜의 글자색 변경 */
+}
+
+.react-calendar__tile--active {
+  background-color: #f59e0b !important; /* 선택된 날짜의 배경색 변경 */
+  color: #ffffff !important; /* 선택된 날짜의 글자색 변경 */
+}
+
+.react-calendar__navigation button {
+  background: none;
+  border: none;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
