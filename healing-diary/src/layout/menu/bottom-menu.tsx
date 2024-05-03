@@ -33,7 +33,7 @@ export default function BottomMenu() {
           </Button>
         </Link>
 
-        <Link href="#" target="_self" className="relative flex-1">
+        <Link href="/group" target="_self" className="relative flex-1">
           <Button
             size="icon"
             variant="transparent"
