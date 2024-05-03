@@ -1,7 +1,5 @@
-import Header from "@/layout/header/header";
 import "./globals.css";
 import { Inter as FontSans } from "next/font/google";
-import BottomMenu from "@/layout/menu/bottom-menu";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -17,11 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className={`${fontSans.variable} overflow-auto bg-gray-100`}>
-        <div className="flex min-h-screen w-full flex-col items-center justify-start">
-          <Header />
-          {children}
-          <BottomMenu />
-        </div>
+        <div className="flex min-h-screen w-full flex-col items-center justify-start">{children}</div>
       </body>
     </html>
   );
